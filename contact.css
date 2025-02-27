@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+}
+.body{
+    max-height: 100vh;
+    width: 100%;
+    background-image: url(fordend.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    /* position:fixed; */
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    transition: all 0.4s cubic-bezier(0.43,1.1,0.62,1.08);
+}
+.header {
+    max-height: 10vh;
+    width: 100%;
+    background-color: black;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+}
+li:hover{
+    transform: scale(1.05);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 8%;
+    align-items: right;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-top: 0%;
+}
+nav img{
+    width: 150px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 0%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 1%;
+    position: relative;
+    margin-right: 0%;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.contact{
+    border:none;
+    text-align: center;
+    margin: 100px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 0px 100px;
+}
+.con{
+    padding-right: 250px;
+    font-size: large;
+    padding: 5px 50px;  
+    margin: 10px ;
+    border-radius: 10px;
+}
+.loc{
+    border:none;
+    text-align: center;
+    margin: 100px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    
+}
+.loc1{
+    font-size: larger;
+    padding: 30px;
+    font-weight: 500;
+}
+.la{
+    font-size: larger;
+    font-weight: 900;
+    padding: 15px;
+
+}
+.conta{
+    display: flex;
+}
+h1{
+    margin-top: 20px;
+}
+footer{
+    background-color: antiquewhite;
+}
+.py-5{
+    display: flex;
+    justify-content: space-around;
+    border: 1pxsolid black;
+    /* border-radius: 5px; */
+    background-color: black;
+    color: rgb(194, 229, 229);
+    text-align: start;
+    /* margin: 10px; */
+    line-height: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+.f1{
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+.f2{
+    font-size: xx-large;
+}
+
+
+

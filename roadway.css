@@ -1,0 +1,239 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    transition: all 0.4s cubic-bezier(0.43,1.1,0.62,1.08);
+}
+.header {
+    max-height: 10vh;
+    width: 100%;
+    background-color: black;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+}
+li:hover{
+    transform: scale(1.05);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 8%;
+    align-items: right;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-top: 0%;
+}
+nav img{
+    width: 150px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 0%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 1%;
+    position: relative;
+    margin-right: 0%;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.body{
+    text-align: center;
+}
+.hole{
+    height: 150px;
+    width: 1000px;
+    border: 2px solid rgb(235, 246, 247);
+    background-color: rgb(194, 207, 208);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.one{
+    text-align: center;
+    margin-top: 55px;
+    font-size: x-large;
+    margin-right: 0%;
+}
+h6{
+    margin: 2px;
+    font-size: medium;
+    margin-right: 30px;
+}
+.one1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.br{
+    border: 1px solid rgb(15, 14, 14);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(217, 226, 234);
+
+}
+.br:hover{
+    transform: scale(1.05);
+}
+
+img{
+    border-radius: 10px 10px 0px 0px ;
+}
+.br1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+   margin-bottom: 0%;
+   margin-top: 0%;
+
+}
+.mi{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+h4{
+    margin: 3px;
+}
+.price{
+    margin: 7px;
+    padding: 7px;
+    font-size: medium;
+    font-style: calc();
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}    
+.body2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpapers.com/images/hd/4k-laptop-car-mansion-luxury-cars-bd3dmymq9p6u5qlz.jpg);
+    position: relative;
+    background-position:cover;
+    display: flex;
+    justify-content: left;
+    color: antiquewhite;
+    font-size: 400%;
+    margin-bottom: 40px;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35vh;
+    margin-bottom: 40vh;
+    margin-left: 10vh;
+    margin-right: 60vh;
+}
+.price1{
+    margin: 15px;
+    padding: 15px;
+    font-size: large;
+    font-style: calc();
+    border-radius: 5px;
+    font-weight: 800;
+}
+.body3{
+    background-color: rgb(232, 243, 252);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-style: calc();
+    font-size: x-large;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.b1{
+    padding-right: 75px;
+    font-weight: 900;
+}
+.price2{
+    margin: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  
+    font-weight: 800 ;
+    border-radius: 5px;
+}
+.body4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center ;
+    border-radius: 5px;
+    margin: 100px;
+    font-size: medium;
+    background-color: rgb(218, 234, 248);
+}
+.main{
+    background-color: black;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+    
+}
+.all{
+    color: aliceblue;
+}
+h1{
+    margin-left: 50px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+footer{
+    background-color: antiquewhite;
+}
+.py-5{
+    display: flex;
+    justify-content: space-around;
+    border: 1pxsolid black;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(194, 229, 229);
+    text-align: start;
+    margin: 10px;
+    line-height: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+.f1{
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+.f2{
+    font-size: xx-large;
+}
+
+
+

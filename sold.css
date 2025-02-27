@@ -1,0 +1,148 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    max-height: 50vh;
+    width: 100%;
+    background-color: rgb(12, 12, 12, 10%);
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+    bottom: 0%;
+
+}
+li:hover{
+    transform: scale(1.05);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 8%;
+    align-items: right;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-top: 0%;
+    
+}
+.br:hover{
+    transform: scale(1.05);
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+nav img{
+    width: 150px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 0%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 1%;
+    position: relative;
+    margin-right: 0%;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.main{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url("https://pixelz.cc/wp-content/uploads/2018/11/rolls-royce-phantom-black-uhd-4k-wallpaper.jpg");
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+}
+.bgh{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+h5{
+    margin: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.one1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.br{
+   background-color: rgba(66,66,66,10%);
+    border-radius: 5px;
+    text-align: left;
+
+}
+.mi{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: medium;
+    text-align: center;
+}
+.br1{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.price{
+    margin: 5px;
+    font-size: larger;
+    font-weight: 800;
+}
+.bu{
+   
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.price1{
+    margin: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+.bu{
+    margin-left: 20px;
+}
+.py-5{
+    display: flex;
+    justify-content: space-around;
+    border: 1pxsolid black;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(194, 229, 229);
+    text-align: start;
+    margin: 10px;
+    line-height: 10px;
+    font-size:large;
+    text-transform: capitalize;
+}
+.f1{
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+.f2{
+    font-size: xx-large;
+}
